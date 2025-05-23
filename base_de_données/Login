@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100),
+    email VARCHAR(255) UNIQUE,
+    mot_de_passe VARCHAR(255),
+    date_creation DATETIME DEFAULT CURRENT_TIMESTAMP
+);
