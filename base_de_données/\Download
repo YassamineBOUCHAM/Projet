@@ -1,0 +1,12 @@
+CREATE TABLE fichiers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom_fichier VARCHAR(255),
+    extension VARCHAR(10),
+    taille INT,
+    chemin VARCHAR(255),
+    type_fichier ENUM('image', 'pdf'),
+    description TEXT,
+    utilisateur_id INT,
+    categorie VARCHAR(100),
+    date_ajout DATETIME DEFAULT CURRENT_TIMESTAMP
+);
