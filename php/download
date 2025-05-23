@@ -1,0 +1,28 @@
+<?php
+$pdo = new PDO("mysql:host=localhost;dbname=ma_base", "root", "");
+$stmt = $pdo->query("SELECT * FROM fichiers ORDER BY date_ajout DESC");
+$fichiers = $stmt->fetchAll();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base de Données Fichiers</title>
+</head>
+<body>
+    <h1>Liste des Fichiers</h1>
+    <?php foreach ($fichiers as $fichier): ?>
+        <div>
+            <?php if ($fichier['type_fichier'] == 'image'): ?>
+                <img src="<?= $fichier['chemin'] ?>" width="150" />
+            <?php else: ?>
+                <img src="pdf_icon.png" width="150" />
+            <?php endif; ?>
+            <p><?= $fichier['nom_fichier'] ?></p>
+            <a href="<?= $fichier['chemin'] ?>" target="_blank">Voir</a> |
+            <a href="<?= $fichier['chemin'] ?>" download>Télécharger</a>
+        </div>
+        <hr>
+    <?php endforeach; ?>
+</body>
+</html>
