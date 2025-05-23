@@ -9,6 +9,8 @@ Burger,Désert,et Entrebl'application propose:
 .Détails de chaque plat(image,decription,ingrédients)
 .page Téléchargement(pdf/image)
 .Accés a un calendeier(planification des repas)
+# Captures d'écran
+
 
 
 # command pour instaler
