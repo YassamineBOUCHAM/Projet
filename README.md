@@ -16,7 +16,6 @@ Burger,Désert,et Entrebl'application propose:
 ![Capture d'écran 2025-05-23 225552](https://github.com/user-attachments/assets/88aab058-453a-4194-bb0c-442093ff8940)
 ![Capture d'écran 2025-05-23 225725](https://github.com/user-attachments/assets/4c6dabde-8c31-4327-9364-e8d608c817b6)
 ![Capture d'écran 2025-05-23 230148](https://github.com/user-attachments/assets/a68336f5-67fc-41fe-9697-1c88536b50c2)
-![Capture d'écran 2025-05-23 230148](https://github.com/user-attachments/assets/a68336f5-67fc-41fe-9697-1c88536b50c2)
 
 # command pour instaler
 flutter pub get
