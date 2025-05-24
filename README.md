@@ -82,7 +82,7 @@ Cette page permet donc une planification souple et personnalisée des repas sur 
 ![téléchargement (6)](https://github.com/user-attachments/assets/7312611a-7435-4288-a5bd-9a5f8f785e6b)
 ![téléchargement (5)](https://github.com/user-attachments/assets/5ac56798-14ba-4147-bce6-d9cf80028003)
 ![téléchargement (4)](https://github.com/user-attachments/assets/6149c9cd-1dea-465f-8bc4-b9baacfc1a51)
-![téléchargement (3)](https://github.com/user-attachments/assets/5163a260-8c72-4768-a733-caa62c6e20d4)
+
 ![téléchargement (2)](https://github.com/user-attachments/assets/52705afb-9843-4fb9-95cb-7f43d51c5b75)
 ![téléchargement](https://github.com/user-attachments/assets/dd329b1e-8b85-46ab-a630-d7e160ee472f)
 
