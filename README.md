@@ -25,7 +25,7 @@ Lors de la première visite sur le site, l’utilisateur arrive sur une page de 
 Lorsqu'un utilisateur visite un site pour la première fois, il arrive sur une page de login.
 S'il n'a pas encore de compte, il peut cliquer sur le bouton "Sign Up" pour s'inscrire.
 
-Il rempli![Capture d'écran 2025-05-24 153035](https://github.com/user-attachments/assets/fb7d8c0f-56c8-43c0-a495-2d8c42329386)
+
 t un formulaire avec des informations comme le nom d'utilisateur et le mot de passe.
 
 Une fois les informations validées, le compte est créé.
