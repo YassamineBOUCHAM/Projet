@@ -1,0 +1,40 @@
+CREATE TABLE Utilisateur (
+    idUtilisateur INT PRIMARY KEY,
+    nom VARCHAR(100),
+    email VARCHAR(100),
+    motDePasse VARCHAR(100)
+);
+ 
+CREATE TABLE Categorie (
+    idPlat INT PRIMARY KEY,
+    nomPlat VARCHAR(100),
+    description TEXT,
+    image VARCHAR(255),
+    categories VARCHAR(100), -- Ou idCategorie si tu veux faire une table de catégories séparée
+    prix DECIMAL(10,2)
+);
+ 
+CREATE TABLE Jour (
+    idJour INT PRIMARY KEY,
+    date DATE,
+    idUtilisateur INT,
+    FOREIGN KEY (idUtilisateur) REFERENCES Utilisateur(idUtilisateur)
+);
+ 
+CREATE TABLE MenuJour (
+    idMenu INT PRIMARY KEY,
+    idPlat INT,
+    date DATE,
+    idUtilisateur INT,
+    FOREIGN KEY (idPlat) REFERENCES Categorie(idPlat),
+    FOREIGN KEY (idUtilisateur) REFERENCES Utilisateur(idUtilisateur)
+);
+ 
+CREATE TABLE ContenuMenu (
+    idMenu INT,
+    idPlat INT,
+    momentRepas VARCHAR(50),
+    PRIMARY KEY (idMenu, idPlat),
+    FOREIGN KEY (idMenu) REFERENCES MenuJour(idMenu),
+    FOREIGN KEY (idPlat) REFERENCES Categorie(idPlat)
+);
