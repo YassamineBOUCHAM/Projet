@@ -10,6 +10,7 @@ Burger,Désert,et Entrebl'application propose:
 .page Téléchargement(pdf/image)
 .Accés a un calendeier(planification des repas)
 # Captures d'écran
+![Capture d'écran 2025-05-24 153035](https://github.com/user-attachments/assets/e8e44c9f-e098-47b3-99ea-838a99ecbbfa)
 
 ![téléchargement (1)](https://github.com/user-attachments/assets/d4bd102b-7328-48df-a9c1-0ba101c906ee)
 # les page de figma 
@@ -23,7 +24,8 @@ Lors de la première visite sur le site, l’utilisateur arrive sur une page de 
 Lorsqu'un utilisateur visite un site pour la première fois, il arrive sur une page de login.
 S'il n'a pas encore de compte, il peut cliquer sur le bouton "Sign Up" pour s'inscrire.
 
-Il remplit un formulaire avec des informations comme le nom d'utilisateur et le mot de passe.
+Il rempli![Capture d'écran 2025-05-24 153035](https://github.com/user-attachments/assets/fb7d8c0f-56c8-43c0-a495-2d8c42329386)
+t un formulaire avec des informations comme le nom d'utilisateur et le mot de passe.
 
 Une fois les informations validées, le compte est créé.
 
@@ -80,6 +82,7 @@ Cette page permet donc une planification souple et personnalisée des repas sur 
 # command pour instaler
 flutter pub get
 flutter run 
+
 
 
 
