@@ -86,11 +86,15 @@ Cette page permet donc une planification souple et personnalisée des repas sur 
 ![téléchargement (2)](https://github.com/user-attachments/assets/52705afb-9843-4fb9-95cb-7f43d51c5b75)
 ![téléchargement](https://github.com/user-attachments/assets/dd329b1e-8b85-46ab-a630-d7e160ee472f)
 ![téléchargement (8)](https://github.com/user-attachments/assets/2d28ecde-a4db-4fde-8094-42eea0df6513)
-
+# MCD
+![mcd](https://github.com/user-attachments/assets/be4745fe-3a1c-49c0-96a2-69b168c3658e)
+#MLD
+![mld](https://github.com/user-attachments/assets/d2fb8ad9-8498-49ab-88dc-eb698d554f1b)
 
 # command pour instaler
 flutter pub get
 flutter run 
+
 
 
 
