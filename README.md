@@ -85,6 +85,7 @@ Cette page permet donc une planification souple et personnalisée des repas sur 
 
 ![téléchargement (2)](https://github.com/user-attachments/assets/52705afb-9843-4fb9-95cb-7f43d51c5b75)
 ![téléchargement](https://github.com/user-attachments/assets/dd329b1e-8b85-46ab-a630-d7e160ee472f)
+![téléchargement (8)](https://github.com/user-attachments/assets/2d28ecde-a4db-4fde-8094-42eea0df6513)
 
 
 # command pour instaler
